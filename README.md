@@ -17,7 +17,7 @@ and a copy of the Oxford Buildings Dataset (available [here] (http://www.robots.
 and a copy of the Paris Dataset (available [here] (http://www.robots.ox.ac.uk/~vgg/data/parisbuildings/))
 
 ## Dataset Format
-
+![image](https://github.com/xwangSGG/LOIP/blob/main/Directory%20structure.jpg)
 	   
 ## File Description
 	|File Name                               |Descriptions
