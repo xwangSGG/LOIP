@@ -18,74 +18,19 @@ and a copy of the Paris Dataset (available [here] (http://www.robots.ox.ac.uk/~v
 
 ## Dataset Format
 
-Dataset                        
- └── <BigSfM> 
-       └── images.Alamo/
-	        ├── Alamo/
-			├── Alamo.txt
-			├── Alamo_Alexnet_NetVlad_Split_Match.txt
-			├── Alamo_Alexnet_NetVlad_Split_TopN.mat
-			├── Alamo_Resnet_NetVlad_Split_Match.txt
-			├── Alamo_Resnet_NetVlad_Split_TopN.mat
-			├── Alamo_VGG_NetVlad_Split_Match.txt
-			├── Alamo_VGG_NetVlad_Split_TopN.mat
-       └──  images.Ellis_Island/
-	        ...
-       └── images.Gendarmenmarkt/
-	        ...
-	   └── images.Madrid_Metropolis/
-	        ...
-	   └── images.Montreal_Notre_Dame/
-	        ...
-	   └── images.Piccadilly/
-	        ...
-       └── images.Trafalgar/
-	        ...
-       └── images.Union_Square/
-	        ...
-       └── images.Vienna_Cathedral/
-	        ...
-	   ├── Alamo.mat
-       ├── Ellis_Island.mat
-       ├── Gendarmenmarkt.mat
-	   ├── Madrid_Metropolis.mat
-	   ├── Montreal_Notre_Dame.mat
-	   ├── Piccadilly.mat
-       ├── Trafalgar.mat
-       ├── Union_Square.mat
-	   └── Vienna_Cathedral.mat
- └── <LOIP> 
-       └── crowdsourced
-	        ├── images/
-			├── ImageName.txt
-			├── Test.mat
-			└── Train.mat
-	   └── photogrammetric/
-	        ├── images/
-			├── ImageName.txt
-			├── Test.mat
-			└── Train.mat
- └── <oxford> 
-       ├── images/
-	   └── ModelTest.mat
- └── <paris> 
-       ├── images/
-	   └── ModelTest.mat
 	   
 ## File Description
-
-|File Name                               |Descriptions
-|CheckPoints_crowdsourced                |previously trained models for crowdsourced images
-|CheckPoints_photogrammetric             |previously trained models for photogrammetric images
-|Alamo.txt                               |image names of Alamo
-|Alamo_Alexnet_NetVlad_Split_Match.txt   |Retrieve Top100 of each image for Alamo by Alexnet_NetVlad_Split('query1 top1', 'query1 top2'......)
-|Alamo_Alexnet_NetVlad_Split_TopN.mat    |Retrieve Top100 of each image for Alamo by Alexnet_NetVlad_Split('query1 top1 top2 top3'......)
-|Alamo.mat                               |image names of query and Database
-|crowdsourced/ImageName.txt              |image names of crowdsourced images
-|crowdsourced/Test.mat                   |image names of query and TestDatabase, index of TestDatabase and TopN
-|crowdsourced/Train.mat                  |image names of query, positive, negative and Database
-|oxford/ModelTest.mat                    |image names of query and TestDatabase, index of TopN
-
+	|File Name                               |Descriptions
+	|CheckPoints_crowdsourced                |previously trained models for crowdsourced images
+	|CheckPoints_photogrammetric             |previously trained models for photogrammetric images
+	|Alamo.txt                               |image names of Alamo
+	|Alamo_Alexnet_NetVlad_Split_Match.txt   |Retrieve Top100 of each image for Alamo by Alexnet_NetVlad_Split('query1 top1', 'query1 top2'......)
+	|Alamo_Alexnet_NetVlad_Split_TopN.mat    |Retrieve Top100 of each image for Alamo by Alexnet_NetVlad_Split('query1 top1 top2 top3'......)
+	|Alamo.mat                               |image names of query and Database
+	|crowdsourced/ImageName.txt              |image names of crowdsourced images
+	|crowdsourced/Test.mat                   |image names of query and TestDatabase, index of TestDatabase and TopN
+	|crowdsourced/Train.mat                  |image names of query, positive, negative and Database
+	|oxford/ModelTest.mat                    |image names of query and TestDatabase, index of TopN
 
 # Usage
 
