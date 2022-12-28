@@ -71,6 +71,7 @@ necessary for each configuration of the network and for each dataset. To cluster
 	
 Results will all be saved to `centroids/`.
 
+## Citation
 If you use our code and datasets, please add a proper reference: 
 {
 Qianbao Hou, Rui Xia, Jiahuan Zhang, Yu Feng, Zongqian Zhan, Xin Wang,
