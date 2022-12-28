@@ -16,6 +16,9 @@ Running this code requires a copy of the 1DSfM (available [here] (http://www.cs.
 and a copy of the Oxford Buildings Dataset (available [here] (http://www.robots.ox.ac.uk/~vgg/data/oxbuildings/)) 
 and a copy of the Paris Dataset (available [here] (http://www.robots.ox.ac.uk/~vgg/data/parisbuildings/))
 
+The published benchmarks LOIP are currentlt available at Baidu cloud, you can download via https://pan.baidu.com/s/1Tw_JyKd27OY068uGbhQDyg and extraction code: 1234.
+A basic data structure is as follows, but, we also provide mesh model and orientation parameters for other photogrammetric tasks.
+
 ## Dataset Format
 ![image](https://github.com/xwangSGG/LOIP/blob/main/Directory%20structure.jpg)
 	   
@@ -67,3 +70,17 @@ necessary for each configuration of the network and for each dataset. To cluster
     python cluster.py
 	
 Results will all be saved to `centroids/`.
+
+If you use our code and datasets, please add a proper reference: 
+{
+Qianbao Hou, Rui Xia, Jiahuan Zhang, Yu Feng, Zongqian Zhan, Xin Wang,
+Learning visual overlapping image pairs for SfM via CNN fine-tuning with photogrammetric geometry information,
+International Journal of Applied Earth Observation and Geoinformation,
+Volume 116,
+2023,
+103162,
+ISSN 1569-8432,
+https://doi.org/10.1016/j.jag.2022.103162.
+}
+
+Any question can be sent to xwang@sgg.whu.edu.cn
