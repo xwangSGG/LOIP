@@ -16,7 +16,7 @@ Running this code requires a copy of the 1DSfM (available [here] (http://www.cs.
 and a copy of the Oxford Buildings Dataset (available [here] (http://www.robots.ox.ac.uk/~vgg/data/oxbuildings/)) 
 and a copy of the Paris Dataset (available [here] (http://www.robots.ox.ac.uk/~vgg/data/parisbuildings/))
 
-The published benchmarks LOIP are currently available at Baidu Cloud, you can download it via https://pan.baidu.com/s/1Tw_JyKd27OY068uGbhQDyg and the extraction code: 1234.
+The published benchmarks LOIP are currently available at Baidu Cloud, you can download it via https://pan.baidu.com/s/1Q42ExgIFA3EQevD2NsRApA and the extraction code: 1234.
 A basic data structure is as follows, but, we also provide mesh model and orientation parameters for other photogrammetric tasks.
 
 ## Dataset Format
